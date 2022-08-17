@@ -4,7 +4,7 @@
         <div class="logo">DANTE</div>
         <ul class="nav">
           <li>
-              <a href="#">Ratings</a>
+              <router-link to="/rate">Rating</router-link>
           </li>
            <li>
               <a href="#">Champs</a>
