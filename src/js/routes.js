@@ -1,6 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import TheHome from '../components/TheHome.vue'
 import TheRating from '../components/TheRatings.vue'
+import TheHottest from '../pages/TheHot.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -13,6 +14,9 @@ const router = createRouter({
         },
         {
             path: '/rate', component: TheRating
+        },
+        {
+            path: '/hot', component: TheHottest
         }
     ]
 })

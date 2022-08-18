@@ -6,5 +6,8 @@ module.exports = defineConfig({
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
     ? '/dantes-den/'
-    : '/'
+    : '/',
+  // devServer: {
+  //     proxy: 'https://vue-http-first-78a3d-default-rtdb.firebaseio.com'
+  //   }
 }
